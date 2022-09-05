@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.container {
+  display: flex;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid black;
+  height: 70vh;
+  width: 80vh;
+}
