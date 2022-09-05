@@ -38,7 +38,7 @@ function resetGrid(){
     // Adds black div when pressing mouse
     createGrid(num);
     let gridBoxList = document.querySelectorAll(".grid-box");
-    gridBoxList.forEach(gridBox => {gridBox.addEventListener("mousedown", changeColor)});
+    gridBoxList.forEach(gridBox => {gridBox.addEventListener("mousemove", changeColor)});
 }
 
 // Clear div section
@@ -50,4 +50,4 @@ function clearGrid(){
 let gridNumber = 16;
 createGrid(gridNumber);
 let gridBoxList = document.querySelectorAll(".grid-box");
-gridBoxList.forEach(gridBox => {gridBox.addEventListener("mousedown", changeColor)});
+gridBoxList.forEach(gridBox => {gridBox.addEventListener("mousemove", changeColor)});
